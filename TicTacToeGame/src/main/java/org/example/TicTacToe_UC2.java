@@ -25,7 +25,7 @@ public class TicTacToe_UC2 {
 
     static void tossToDecideFirstPlayer() {
         Random random = new Random();
-        int toss = random.nextInt(2);
+        int toss = random.nextInt(2); // 0 or 1
 
         if (toss == 0) {
             currentPlayer = "Player 1";
