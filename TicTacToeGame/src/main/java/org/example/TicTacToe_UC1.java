@@ -1,3 +1,5 @@
+package org.example;
+
 public class TicTacToe_UC1 {
 
     static char[][] board = new char[3][3];
